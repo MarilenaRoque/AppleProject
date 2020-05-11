@@ -14,6 +14,48 @@
     margin: auto;
 }
 
+.apple-icon{
+    background-image: url(../img/apple.svg);
+    background-position: center 2px;
+}
+
+.store{
+    background-image: url(../img/apple.svg);
+    background-position: center 12.5%;
+}
+
+.mac{
+    background-image: url(../img/apple.svg);
+    background-position: center 27.1%;
+}
+
+.ipod{
+    background-image: url(../img/apple.svg);
+    background-position: center 41.7%;
+}
+
+.iphone{
+    background-image: url(../img/apple.svg);
+    background-position: center 56.3%;
+}
+
+.ipad{
+    background-image: url(../img/apple.svg);
+    background-position: center 70.9%;
+}
+
+.itunes{
+    background-image: url(../img/apple.svg);
+    background-position: center 86%;
+}
+
+.support{
+    background-image: url(../img/apple.svg);
+    background-position: center 100.7%;
+}
+
+
+
 
       /* Main Section Style */
 main {
@@ -22,6 +64,34 @@ main {
     height: 538px;
     margin: 1px;
 }
+
+.navbar {
+    width: 980px;
+    height: 36px;
+    display: flex;
+    margin: 50px auto;
+}
+
+.nav-list{
+    display: flex;
+    flex-grow: 1;
+    max-width: 848px;
+}
+
+
+
+.nav-list li{
+    width: 12.5%;
+    height: 36px;
+    background-color: darkcyan;
+}
+
+.search{
+    display: inline-block;
+    width: 50px;
+}
+
+
 
    /* Promo Section */
 
@@ -67,17 +137,17 @@ footer {
     color: #6E6E6E;
 }
 
-ul {
+footer ul {
     display: flex;
     align-items: center;
 }
 
-li {
+footer li {
     border-right: 1px solid rgb(204, 204, 204);
     padding: 0px 8px;
 }
 
-.float-right{
+.float-right {
     text-align: right;
     float: right;
     padding: 5px 0px;
@@ -88,12 +158,12 @@ li {
     display: flex;
 }
 
-footer p{
+footer p {
     display: inline-block;
     padding: 9px 0px;
 }
 
-a {
+footer a {
     text-decoration: none;
     color: #0088CC;
 }
