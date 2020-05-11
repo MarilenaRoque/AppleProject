@@ -16,7 +16,8 @@
 
       /* Main Section Style */
 main {
-    background-color: blueviolet;
+    background-image: url("../img/hero.jpg");
+    background-position: center bottom;
     height: 538px;
     margin: 1px;
 }
@@ -29,12 +30,28 @@ section {
     height: 200px;
     
 }
+.iphoneRose {
+    background-image: url("../img/iphone.jpg");
+}
+
+.iphoneBlack {
+    background-image: url("../img/iphonecolor.jpg");
+}
+
+.mac30 {
+    background-image: url("../img/mac.jpg");
+}
+
+.responsibility {
+    background-image: url("../img/responsibility.jpg");
+}
 
 .promo-item{
     margin: 1px;
     background-color: rgb(243, 8, 125);
     height: 200px;
     width: 25%;
+    background-position: center center;
 }
 
 footer {
@@ -43,6 +60,8 @@ footer {
     width: 980px;
     height: 90px;
 }
+
+
 
 
 
