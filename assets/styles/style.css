@@ -1,0 +1,51 @@
+      /* GENERAL */
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.content-display{
+    max-width: 1440px;
+    min-width: 925px;
+    margin: auto;
+}
+
+      /* Main Section Style */
+main {
+    background-color: blueviolet;
+    height: 538px;
+    margin: 1px;
+}
+
+   /* Aside Section */
+
+section {
+    background-color: blue;
+    display: flex;
+    height: 200px;
+    
+}
+
+.promo-item{
+    margin: 1px;
+    background-color: rgb(243, 8, 125);
+    height: 200px;
+    width: 25%;
+}
+
+footer {
+    margin: 2px auto;
+    background-color: cadetblue;
+    width: 980px;
+    height: 90px;
+}
+
+
+
+
+
+
