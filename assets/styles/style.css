@@ -15,42 +15,35 @@
 }
 
 .apple-icon{
-    background-image: url(../img/apple.svg);
+
     background-position: center 2px;
 }
 
 .store{
-    background-image: url(../img/apple.svg);
     background-position: center 12.5%;
 }
 
 .mac{
-    background-image: url(../img/apple.svg);
     background-position: center 27.1%;
 }
 
 .ipod{
-    background-image: url(../img/apple.svg);
     background-position: center 41.7%;
 }
 
 .iphone{
-    background-image: url(../img/apple.svg);
     background-position: center 56.3%;
 }
 
 .ipad{
-    background-image: url(../img/apple.svg);
     background-position: center 70.9%;
 }
 
 .itunes{
-    background-image: url(../img/apple.svg);
     background-position: center 86%;
 }
 
 .support{
-    background-image: url(../img/apple.svg);
     background-position: center 100.7%;
 }
 
@@ -62,6 +55,7 @@ main {
     background-image: url("../img/hero.jpg");
     background-position: center bottom;
     height: 538px;
+    padding: 83px;
     margin: 1px;
 }
 
@@ -69,7 +63,8 @@ main {
     width: 980px;
     height: 36px;
     display: flex;
-    margin: 50px auto;
+    margin: auto;
+    background-image: linear-gradient(#707070 , #808080 25%, #808080 50%, #5E5E5E 50%, #666);
 }
 
 .nav-list{
@@ -80,15 +75,63 @@ main {
 
 
 
-.nav-list li{
+.nav-list-itens{
     width: 12.5%;
     height: 36px;
-    background-color: darkcyan;
+    background-image: url(../img/apple.svg);
+    border: 1px solid gray;
 }
 
 .search{
+    display: flex;
+    vertical-align: middle;
+    width: 132px;
+    height: 36px;
+    padding: 8px 13px 7px;
+}
+
+
+
+.input{
+    background-image: url(../img/input-box.png);
+    width: 100px;
+    height: 19px;
+}
+.input-box {
     display: inline-block;
-    width: 50px;
+    width:75%;
+    background-color: rgba(255, 255, 255, 0);
+    margin-left: 25%;
+    border: none;
+}
+.input-box:active {
+    border: none;
+}
+
+
+.verse {
+    display: block;
+    width: 980px;
+    height: 100px;
+    margin: 30px auto 0px;
+}
+
+.subtitle {
+    display: block;
+    margin: auto;
+    width: 980px;
+    height: 78px;
+}
+
+.watch {
+    width: 980px;
+    height: 32px;
+    margin: 28px auto;
+    background-image: url(../img/watch.png);
+}
+
+.watch:hover {
+    background-position: center bottom;
 }
 
 
@@ -96,11 +139,10 @@ main {
    /* Promo Section */
 
 section {
-    background-color: blue;
     display: flex;
     height: 200px;
-    
 }
+
 .iphoneRose {
     background-image: url("../img/iphone.jpg");
 }
@@ -118,8 +160,7 @@ section {
 }
 
 .promo-item{
-    margin: 1px;
-    background-color: rgb(243, 8, 125);
+    margin: 2px 1PX;
     height: 200px;
     width: 25%;
     background-position: center center;
@@ -170,7 +211,7 @@ footer a {
 
 a:hover {
     text-decoration: underline;
-} 
+}
 
 .no-border{
     border: none;
