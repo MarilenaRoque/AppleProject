@@ -1,4 +1,4 @@
-      /* GENERAL */
+/* GENERAL */
 
 *,
 *::after,
@@ -8,253 +8,205 @@
   box-sizing: border-box;
 }
 
-input:focus, textarea:focus, select:focus{
-    outline: none;
+.content-display {
+  max-width: 1440px;
+  min-width: 1100px;
+  margin: auto;
 }
 
-.content-display{
-    max-width: 1440px;
-    min-width: 1100px;
-    margin: auto;
-}
+/* Main Section Style */
 
-.apple-icon{
-
-    background-position: center 2px;
-}
-
-.store{
-    background-position: center 12.5%;
-}
-
-.mac{
-    background-position: center 27.1%;
-}
-
-.ipod{
-    background-position: center 41.7%;
-}
-
-.iphone{
-    background-position: center 56.3%;
-}
-
-.ipad{
-    background-position: center 70.9%;
-}
-
-.itunes{
-    background-position: center 86%;
-}
-
-.support{
-    background-position: center 100.7%;
-}
-
-
-
-
-      /* Main Section Style */
 main {
-    background-image: url("../img/hero.jpg");
-    background-position: center bottom;
-    height: 70vh;
-    min-height: 480px;
-    padding: 95px 20px;
-    margin: 1px;
+  background-image: url("../img/hero.jpg");
+  background-position: center bottom;
+  height: 70vh;
+  min-height: 480px;
+  padding: 95px 20px;
+  margin: 1px;
 }
+
+/* Navbar */
 
 .navbar {
-    position: relative;
-    width: 980px;
-    height: 37px;
-    display: flex;
-    margin: auto;
-    background-image: linear-gradient(#707070 , #808080 46%, #5E5E5E 46%, #707070);
-    border-radius: 4px;
+  position: relative;
+  width: 980px;
+  height: 37px;
+  display: flex;
+  margin: auto;
+  background-image: linear-gradient(#707070, #808080 46%, #5e5e5e 46%, #707070);
+  border-radius: 4px;
 }
 
-.nav-list{
-    display: flex;
-    flex-grow: 1;
-    max-width: 848px;
+.nav-list {
+  display: flex;
+  flex-grow: 1;
+  max-width: 848px;
 }
 
-
-
-.nav-list-itens{
-    width: 12.5%;
-    height: 36px;
-    background-image: url(../img/apple.svg);
-    border: 1px solid gray;
-    cursor:pointer;
+.nav-list-itens {
+  width: 12.5%;
+  height: 36px;
+  background-image: url(../img/apple.svg);
+  border: 1px solid gray;
+  cursor: pointer;
 }
 
 .nav-list-itens:hover {
-    background-color: rgba(49, 48, 48, 0.432);
+  background-color: rgba(49, 48, 48, 0.432);
 }
 
+.apple-icon { background-position: center 2px; }
 
-.search{
-    display: flex;
-    vertical-align: middle;
-    width: 132px;
-    height: 36px;
-    padding: 8px 13px 7px;
-    background-image: url(../img/input-box-focus.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    transition: width 0.5s;
+.store { background-position: center 12.5%; }
 
+.mac { background-position: center 27.1%; }
+
+.ipod { background-position: center 41.7%; }
+
+.iphone { background-position: center 56.3%; }
+
+.ipad { background-position: center 70.9%; }
+
+.itunes { background-position: center 86%; }
+
+.support { background-position: center 100.7%; }
+
+.search {
+  display: flex;
+  vertical-align: middle;
+  width: 132px;
+  height: 36px;
+  padding: 8px 13px 7px;
+  background-image: url(../img/input-box-focus.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: width 0.5s;
 }
 
-.input-box:focus ~ .search{
-    width: 200px;
-    background-image: url(../img/input-box-larger.png);
-    background-repeat: no-repeat;
-    background-position: center 45%;
-}
-
-
-.input-box:focus {
-    width: 134px;
-}
-
-.input{
-    height: 19px;
-    width: 106px;
+.input {
+  height: 19px;
+  width: 106px;
 }
 
 .input-box {
-    display: inline-block;
-    width: 80px;
-    height: 19px;
-    background-color: rgba(255, 255, 255, 0);
-    border: none;
-    position: absolute;
-    right: 18px;
-    top: 9px;
-    transition: width 0.5s;
+  display: inline-block;
+  width: 80px;
+  height: 19px;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  position: absolute;
+  right: 18px;
+  top: 9px;
+  transition: width 0.5s;
 }
 
+.input-box:focus {
+  width: 134px;
+}
 
+.input-box:focus ~ .search {
+  width: 200px;
+  background-image: url(../img/input-box-larger.png);
+  background-repeat: no-repeat;
+  background-position: center 45%;
+}
 
+/* Main Titles Content */
 
 .verse {
-    display: block;
-    width: 980px;
-    height: 100px;
-    margin: 30px auto 0px;
+  display: block;
+  width: 980px;
+  height: 100px;
+  margin: 30px auto 0;
 }
 
 .subtitle {
-    display: block;
-    margin: auto;
-    width: 980px;
-    height: 78px;
+  display: block;
+  margin: auto;
+  width: 980px;
+  height: 78px;
 }
 
 .watch {
-    width: 980px;
-    height: 32px;
-    margin: 28px auto;
-    background-image: url(../img/watch.png);
+  width: 980px;
+  height: 32px;
+  margin: 28px auto;
+  background-image: url(../img/watch.png);
 }
 
 .watch:hover {
-    background-position: center bottom;
+  background-position: center bottom;
 }
 
+/* Promo Section */
 
-
-   /* Promo Section */
-
-section {
-    display: flex;
-    height: 200px;
+.promo {
+  display: flex;
+  height: 200px;
 }
 
-.iphoneRose {
-    background-image: url("../img/iphone.jpg");
+.promo-item {
+  margin: 2px 1px;
+  height: 200px;
+  width: 25%;
+  background-position: center center;
 }
 
-.iphoneBlack {
-    background-image: url("../img/iphonecolor.jpg");
-}
+.iphoneRose { background-image: url("../img/iphone.jpg"); }
 
-.mac30 {
-    background-image: url("../img/mac.jpg");
-}
+.iphoneBlack { background-image: url("../img/iphonecolor.jpg"); }
 
-.responsibility {
-    background-image: url("../img/responsibility.jpg");
-}
+.mac30 { background-image: url("../img/mac.jpg"); }
 
-.promo-item{
-    margin: 2px 1PX;
-    height: 200px;
-    width: 25%;
-    background-position: center center;
-}
+.responsibility { background-image: url("../img/responsibility.jpg"); }
 
-        /* Footer */
+/* Footer */
 
 footer {
-    margin: 2px auto;
-    width: 980px;
-    height: 90px;
-    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-    font-size: 10px;
-    padding: 16px 0px 0px 0px;
-    color: #6E6E6E;
+  margin: 2px auto;
+  width: 980px;
+  height: 90px;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font-size: 10px;
+  padding: 16px 0 0 0;
+  color: #6e6e6e;
 }
 
 footer ul {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 footer li {
-    border-right: 1px solid rgb(204, 204, 204);
-    padding: 0px 8px;
+  border-right: 1px solid rgb(204, 204, 204);
+  padding: 0 8px;
 }
 
 .float-right {
-    text-align: right;
-    float: right;
-    padding: 5px 0px;
+  text-align: right;
+  float: right;
+  padding: 5px 0;
 }
 
 .copyright {
-    clear: right;
-    display: flex;
+  clear: right;
+  display: flex;
 }
 
 footer p {
-    display: inline-block;
-    padding: 9px 0px;
+  display: inline-block;
+  padding: 9px 0;
 }
 
 footer a {
-    text-decoration: none;
-    color: #0088CC;
+  text-decoration: none;
+  color: #08c;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-.no-border{
-    border: none;
+.no-border {
+  border: none;
 }
-
-
-
-
-
-
-
-
-
-
-
