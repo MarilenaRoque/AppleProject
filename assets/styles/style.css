@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
 .content-display{
     max-width: 1440px;
     min-width: 925px;
@@ -55,11 +59,12 @@ main {
     background-image: url("../img/hero.jpg");
     background-position: center bottom;
     height: 538px;
-    padding: 83px;
+    padding: 82px;
     margin: 1px;
 }
 
 .navbar {
+    position: relative;
     width: 980px;
     height: 36px;
     display: flex;
@@ -82,31 +87,50 @@ main {
     border: 1px solid gray;
 }
 
+
 .search{
     display: flex;
     vertical-align: middle;
     width: 132px;
     height: 36px;
     padding: 8px 13px 7px;
+    background-image: url(../img/input-box-focus.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: width 0.5s;
+
+}
+
+.input-box:focus ~ .search{
+    width: 200px;
+    background-image: url(../img/input-box-blur.png);
+    background-repeat: no-repeat;
+    position: 50px 20px;
 }
 
 
+.input-box:focus {
+    width: 131px;
+}
 
 .input{
-    background-image: url(../img/input-box.png);
-    width: 100px;
     height: 19px;
+    width: 106px;
 }
+
 .input-box {
     display: inline-block;
-    width:75%;
+    width: 80px;
+    height: 19px;
     background-color: rgba(255, 255, 255, 0);
-    margin-left: 25%;
     border: none;
+    position: absolute;
+    right: 18px;
+    top: 9px;
+    transition: width 0.5s;
 }
-.input-box:active {
-    border: none;
-}
+
+
 
 
 .verse {
