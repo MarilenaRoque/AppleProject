@@ -14,7 +14,7 @@ input:focus, textarea:focus, select:focus{
 
 .content-display{
     max-width: 1440px;
-    min-width: 925px;
+    min-width: 1100px;
     margin: auto;
 }
 
@@ -58,8 +58,9 @@ input:focus, textarea:focus, select:focus{
 main {
     background-image: url("../img/hero.jpg");
     background-position: center bottom;
-    height: 538px;
-    padding: 82px;
+    height: 70vh;
+    min-height: 480px;
+    padding: 95px 20px;
     margin: 1px;
 }
 
