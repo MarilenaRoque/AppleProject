@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/MarilenaRoque/AppleProject/development/index.html)
+[Live Demo Link](https://marilenaroque.github.io/AppleProject/)
 
 
 
